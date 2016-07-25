@@ -11,12 +11,15 @@ namespace MICROPHONE
 
         private string name;
         private string path;
+        private int volume;
 
         public sound(string path, string name)
         {
             this.name = name;
             this.path = path;
+            volume = 0;
         }
+
 
         public string Name
         {
